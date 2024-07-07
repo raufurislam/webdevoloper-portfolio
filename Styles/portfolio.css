@@ -4,6 +4,11 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
+/* shared */
+.secondary-bg {
+  background-color: #fff8f3;
+}
 .btn-primary {
   background-color: #fd6e0a;
   font-weight: bold;
@@ -14,6 +19,18 @@
   border: none;
 }
 
+.section-tittle {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-description {
+  font-size: 18px;
+  color: #757575;
+}
+.text-center {
+  text-align: center;
+}
 /* Nav styles */
 nav {
   display: flex;
@@ -86,4 +103,48 @@ nav li a {
 
 .banner-profile-pic {
   width: 580px;
+}
+
+/* main style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+/* about styles */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 0px;
+}
+
+.item-description {
+  font-weight: bold;
+  font-size: 20;
+}
+.item-tittle {
+  margin-bottom: 10px;
+}
+
+/* what I do */
+
+/* skill section stayle */
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
 }
